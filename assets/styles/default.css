@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Agbalumo&family=Audiowide&family=Fugaz+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+:root{
+    /*DEFAULT*/
+
+    /*VARIABLES*/
+    --default-font: 'Agbalumo', sans-serif;
+
+    /*GALERY*/
+
+    /*COLOR*/
+    --background-color: #40394A;
+    --title-color: #6DECB9;
+
+    /*CARD*/
+
+    /*COLOR*/
+    --card-background-color: #ffffff;
+    --card-status-color: #F5F7F8;
+    --card-car-name-color: #323335;
+    --card-shadow-color: #2e2c30;
+    --card-button-color: #527853;
+    --card-hover-button-color: #ff9f55;
+    /*VARIABLES*/
+    --card-shadow: 3px 3px 12px var(--card-shadow-color), -3px -3px 12px var(--card-shadow-color);
+    --specs-font: 'Audiowide', sans-serif;
+}
+*{
+    list-style: none;
+}

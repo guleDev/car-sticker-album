@@ -1,0 +1,72 @@
+.card{
+    background-color: var(--card-background-color);
+    width: 180px;
+    height: 260px;
+    border-radius: 20px;
+    display: flex;
+    margin: 30px;
+    color: var(--card-car-name-color);
+    box-shadow: var(--card-shadow);
+    transition: 1s;
+}
+.card{
+    width: auto;
+}
+.card img{
+    width: 180px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+}
+.card.active img{
+    border-radius: 20px 0;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: var(--default-font);
+}
+.statusButton{
+    background-color: var(--card-button-color);
+    color: var(--card-background-color);
+    font-family: var(--default-font);
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.statusButton:hover, .statusButton.active{
+    background-color: var(--card-hover-button-color);
+    transition: 1s;
+}
+.statusButton.active:hover{
+    background-color: var(--card-button-color);
+    transition: 0.8s;
+}
+.cardSpecs{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--specs-font);
+}
+.presentation{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.specs{
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.specs td{
+    padding: 3px 0;
+}
